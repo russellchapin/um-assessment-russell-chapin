@@ -10546,11 +10546,6 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
-tree-json-generator@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/tree-json-generator/-/tree-json-generator-0.1.1.tgz#1ed406b8524833309cdb7b7ae94ce1faa89d265d"
-  integrity sha512-//uD/x+HQF55wUYEz46KiCs0D5UH4dVAvgROLvOKcag+QQBiUaKjaDWqkbDZKwrDAkUWf9INaF68ZOm20aNzzg==
-
 tryer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
