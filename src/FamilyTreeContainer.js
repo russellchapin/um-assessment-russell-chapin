@@ -31,7 +31,7 @@ export default function FamilyTreeContainer() {
           children (or as many as this client can handle &#128578;).
         </h3>
         <h3>
-        The currently ingested data is nine levels deep.
+          The currently ingested data is nine levels deep.
         </h3>
       </header>
       <div className="main">
