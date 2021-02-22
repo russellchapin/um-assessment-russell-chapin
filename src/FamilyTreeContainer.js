@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import FamilyTree from './FamilyTree';
-
 import './FamilyTreeContainer.css';
 
 export default function FamilyTreeContainer() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [tree, setTree] = useState(null);
+
   useEffect(() => {
     fetch('https://russellchapin.com/docs/testTree.json')
       .then(res => res.json())
@@ -21,6 +21,7 @@ export default function FamilyTreeContainer() {
         }
       );
   }, []);
+
   return (
     <div>
       <header>

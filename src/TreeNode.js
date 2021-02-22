@@ -1,5 +1,4 @@
 import React from 'react';
-
 import "./TreeNode.css";
 
 export default function TreeNode({
@@ -7,8 +6,9 @@ export default function TreeNode({
 }) {
   // Let's not render some of this metadata
   const { id, children, parent, registered, ...rest} = node;
+ 
   return (
-    <div className={`node ${node.parent === "root" ? "root" : ""}`}>
+    <div className={`node ${parent === "root" ? "root" : ""}`}>
       <div className="inner-node">
         {
           Object.entries(rest).map((x) => {

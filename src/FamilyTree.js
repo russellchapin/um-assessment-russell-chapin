@@ -3,7 +3,7 @@ import TreeNode from './TreeNode';
 
 export default function FamilyTree({ tree = [], level = 0 }) {
   return (
-    <React.Fragment>
+    <>
       {tree.map((node, index) => {
         return (
           <>
@@ -18,6 +18,6 @@ export default function FamilyTree({ tree = [], level = 0 }) {
           </>
         );
       })}
-    </React.Fragment>
+    </>
   );
 }
